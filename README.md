@@ -1,63 +1,51 @@
 [toc]
 
-学习计划：
+## 学习计划：
 
 JAVA--Kotlin基础--安卓基础--编写测试DEMO--项目--业务逻辑
 
 
 
+## 学习方法
+
+#### 1. **确定学习目标**
+
+- **设定明确的目标**：了解你想要学习的内容和最终的目标是什么。
+- **分解目标**：将大目标分解成多个小目标，更易于管理和实现。
+
+#### 2. **获取基础知识**
+
+- **阅读和学习基础概念**：通过书籍、在线课程和文档来理解基础概念。
+- **做笔记**：记录下关键点和概念，便于后续复习。
+
+#### 3. **实践与应用**
+
+- **动手实践**：通过实际项目或练习来巩固学到的知识。
+- **编码练习**：实现小项目或练习题目，帮助理解和记忆。
+
+#### 4. **复习与回顾**
+
+- **定期复习**：使用间隔重复的方法进行复习，巩固记忆。
+- **总结和回顾**：定期总结学到的知识，回顾笔记和项目代码。
+
+#### 5. **深入学习与应用**
+
+- **学习进阶概念**：在掌握基础知识后，学习更高级的概念和技巧。
+- **参与项目**：加入实际项目或团队，应用所学知识解决实际问题。
 
 
-## 项目说明
 
-写写 Demo、练练代码是非常重要的实践过程，可以帮助你更好地掌握所学的知识。我们可以通过一个具体的示例来解释如何完成这些练习，比如：解析 JSON 数据并用 MVC 分层架构实现一个简单的列表展示页面。
+关键在于获取基础知识，理解记忆。
 
-### 实践示例：微信首页
+然后使用练习题目进行练习。
 
-我们将创建一个简单的微信首页，其中包括一个列表，数据从网络上的 JSON 数据获取并解析成模型，使用 MVC 架构来组织代码。
+最后中间穿插复习和回顾
 
-#### 准备工作
 
-1. **创建项目**
 
-   - 打开 Android Studio，创建一个新的项目，选择 Empty Activity 模板。
-   - 为项目命名，例如 "WeChatHomeDemo"。
+借助Anki实现定期复习
 
-2. **添加依赖**
+## 安卓基础
 
-   - 在 
+1.Activity
 
-     ```
-     build.gradle
-     ```
-
-      文件中添加以下依赖：
-
-     ```
-     gradle复制代码implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-     implementation 'androidx.recyclerview:recyclerview:1.2.1'
-     ```
-
-#### 目录结构
-
-```pascal
-app/
-├── java/
-│   └── com.example.wechathomedemo/
-│       ├── controller/
-│       │   └── MainActivity.java
-│       ├── model/
-│       │   └── Contact.java
-│       │   └── ApiService.java
-│       ├── view/
-│       │   └── ContactAdapter.java
-│       └── network/
-│           └── RetrofitClient.java
-└── res/
-    ├── layout/
-    │   └── activity_main.xml
-    │   └── item_contact.xml
-    └── values/
-        └── strings.xml
-```
